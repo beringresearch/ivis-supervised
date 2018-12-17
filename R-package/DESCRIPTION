@@ -1,4 +1,4 @@
-Package: ivis
+Package: ivis_supervised
 Title: Artificial neural network-driven visualization of high-dimensional data using triplets. 
 Version: 1.0
 Authors@R: c(person("Benjamin", "Szubert", email = "bszubert@beringresearch.com", role = c("aut", "cre")),

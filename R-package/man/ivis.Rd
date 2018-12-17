@@ -4,9 +4,8 @@
 \alias{ivis}
 \title{IVIS algorithm}
 \usage{
-ivis(X, y = NULL, embedding_dims = 2L, k = 150L, distance = "pn",
-  batch_size = 128L, epochs = 1000L, n_epochs_without_progress = 50L,
-  margin = 1, ntrees = 50L, search_k = -1L, precompute = TRUE)
+ivis(X, y, embedding_dims = 2L, distance = "pn", batch_size = 128L,
+  epochs = 1000L, n_epochs_without_progress = 50L, margin = 1)
 }
 \arguments{
 \item{X}{numerical matrix to be reduced. Columns correspond to features.}
@@ -29,7 +28,7 @@ After n number of epochs without an improvement to the loss, terminate training 
 
 \item{margin}{float, optional (default: 1)
 The distance that is enforced between points by the triplet loss functions}
-
+}
 \description{
 IVIS algorithm
 }
