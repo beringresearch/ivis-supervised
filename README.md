@@ -48,7 +48,7 @@ ivis.fit(X_train, Y_train, shuffle_mode='batch')
 y_pred = ivis.transform(X_train)
 ```
 
-
+Looking for unsupervised ivis? Code is available at https://github.com/beringresearch/ivis
 
 Supervised ivis is free for non-commercial use. If you have any questions, please send queries to info "at" beringresearch.com
 
